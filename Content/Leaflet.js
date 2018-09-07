@@ -471,7 +471,7 @@ if (!console) {
    }
    map=new L.Map(div);
    map.setView([47.49883,19.0582],14);
-   map.addLayer(new L.TileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png",(r={},r.attribution="&copy; <a href=\"http://osm.org/copyright\">OpenStreetMap</a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>",r)));
+   map.addLayer(new L.TileLayer("https://{s}.tile.osm.org/{z}/{x}/{y}.png",(r={},r.attribution="&copy; <a href=\"https://osm.org/copyright\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>",r)));
    map.addLayer((m=new L.Marker([47.48553,19.07153]),(m.bindPopup("IntelliFactory"),m)));
    map.on("mousemove",function(x)
    {

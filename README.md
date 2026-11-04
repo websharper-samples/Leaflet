@@ -1,11 +1,14 @@
 # WebSharper Leaflet
 
-An interactive [OpenStreetMap](https://www.openstreetmap.org/) map rendered with
-the [WebSharper.Leaflet](https://github.com/dotnet-websharper/leaflet) bindings:
-a map centered on Budapest with a marker, and a live readout of the cursor's
+An interactive [OpenStreetMap](https://www.openstreetmap.org/) map built with
+[WebSharper](https://websharper.com) and the
+[WebSharper.Leaflet](https://github.com/dotnet-websharper/leaflet) bindings — a
+map centered on Budapest with a marker, and a live readout of the cursor's
 coordinates.
 
-![screenshot](docs/screenshot.png)
+[![screenshot](docs/screenshot.png)](https://websharper-samples.github.io/Leaflet)
+
+**[Try it live](https://websharper-samples.github.io/Leaflet)**
 
 ## How it works
 
